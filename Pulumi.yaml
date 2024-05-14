@@ -1,0 +1,9 @@
+name: StaticWebsite
+runtime: nodejs
+description: Hello Pulumi
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-typescript
+  aws:region: "us-west-2" # or your preferred AWS region
+  siteDir: "./www" # Path to your website files
